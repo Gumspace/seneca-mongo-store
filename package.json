@@ -4,7 +4,7 @@
   "description": "Seneca data store plugin for MongoDB",
   "main": "mongo-store.js",
   "scripts": {
-    "test": "lab test/*.test.js -r console -v -L",
+    "test": "lab test/*.test.js -r console -v -L -l",
     "cov": "lab test/*.test.js -v -r lcov | coveralls",
     "lint": "lab -dL",
     "build": "docker-compose build",
@@ -41,7 +41,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "4.15.0",
-    "mongodb": "2.2.5"
+    "mongodb": "^2.2.33"
   },
   "devDependencies": {
     "async": "2.0.x",

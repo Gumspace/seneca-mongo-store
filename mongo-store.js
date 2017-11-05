@@ -124,12 +124,7 @@ module.exports = function (opts) {
 
     // Extend the db options with some defaults
     // See http://mongodb.github.io/node-mongodb-native/2.0/reference/connecting/connection-settings/ for options
-    var options = seneca.util.deepextend({
-      db: {},
-      server: {},
-      replset: {},
-      mongos: {}
-    }, conf.options)
+    var options = seneca.util.deepextend({}, conf.options)
 
 
     // Connect using the URI
