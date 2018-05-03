@@ -1,5 +1,5 @@
 {
-  "name": "seneca-mongo-store",
+  "name": "@gumspace/seneca-mongo-store",
   "version": "2.0.0",
   "description": "Seneca data store plugin for MongoDB",
   "main": "mongo-store.js",
@@ -16,14 +16,7 @@
     "type": "git",
     "url": "https://github.com/senecajs/seneca-mongo-store"
   },
-  "keywords": [
-    "seneca",
-    "plugin",
-    "store",
-    "mongo",
-    "mongodb",
-    "json"
-  ],
+  "keywords": ["seneca", "plugin", "store", "mongo", "mongodb", "json"],
   "author": "Richard Rodger (http://richardrodger.com)",
   "contributors": [
     "Richard Rodger (http://richardrodger.com)",
@@ -57,12 +50,6 @@
     "seneca-entity": "1.3.x",
     "seneca-store-test": "0.3.0"
   },
-  "files": [
-    "LICENSE.txt",
-    "README.md",
-    "mongo-store.js"
-  ],
-  "pre-commit": [
-    "test"
-  ]
+  "files": ["LICENSE.txt", "README.md", "mongo-store.js"],
+  "pre-commit": ["test"]
 }
